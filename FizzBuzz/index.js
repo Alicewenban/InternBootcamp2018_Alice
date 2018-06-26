@@ -3,14 +3,7 @@ const readline = require('readline-sync');
 function divisertest(a,b){
     return(a%b === 0);
 }
-function Rules(){
-    this.three=false;
-    this.five =false;
-    this.seven=false;
-    this.eleven=false;
-    this.thirteen=false;
-    this.seventeen=false;
-}
+var ruleApply= function(valid){ return function(ruleNum){ return function(testNum){return valid && divisertest(testNum,ruleNum)}}}
 
 console.log("How many numbers do you want?")
 const num = parseInt(readline.prompt());
@@ -18,26 +11,31 @@ const num = parseInt(readline.prompt());
 console.log("what rules do you want? \n\ please select from the following 3,5,7,11,13,17 \n\ seprate by commers e.g if you want 3 5 and 7 input 3,5,7 ")
 const rules = readline.prompt();
 const arrRules = rules.split(',');
-var rule= new Rules();
+var rule3= function(num){return false};
+var rule5= function(num){return false};
+var rule7= function(num){return false};
+var rule11= function(num){return false};
+var rule13= function(num){return false};
+var rule17= function(num){return false};
 for(p=0; p<arrRules.length; p++){
     switch(arrRules[p]){
         case('3'):
-            rule.three=true;
+            var rule3 = ruleApply(true)(3);
         break;
         case('5'):
-            rule.five=true;
+            var rule5 = ruleApply(true)(5);
         break;
         case('7'):
-            rule.seven=true;
+            var rule7 = ruleApply(true)(7);
         break;
         case('11'):
-            rule.eleven=true;
+            var rule11 = ruleApply(true)(11);
         break;
         case('13'):
-            rule.thirteen=true;
+            var rule13 = ruleApply(true)(13);
         break;
         case('17'):
-            rules.seventeen=true;
+            var rule17 = ruleApply(true)(17);
         break;
     }
 }
@@ -46,27 +44,27 @@ for(p=0; p<arrRules.length; p++){
 for (i = 1; i <=num; i++) { 
     var ans = '';
     var notNum= true;
-    if(divisertest(i,3)&& rule.three){
+    if(rule3(i)){
         ans = 'Fizz';
         notNum=false;
     }
-    if(divisertest(i,13) && rule.thirteen){
+    if(rule13(i)){
         ans=ans.concat('Fezz');
         notNum=false;
     }
-    if(divisertest(i,5)&& rule.five){
+    if(rule5(i)){
         ans=ans.concat('Buzz');
         notNum=false;
     }
-    if(divisertest(7,i)&& rule.seven){
+    if(rule7(i)){
         ans=ans.concat('Bang');
         notNum=false;
     }
-    if(divisertest(11,i)&& rule.eleven){
+    if(rule11(i)){
         ans='Bong';
         notNum=false;
     }
-    if(divisertest(17,i)&& rule.seventeen){
+    if(rule17(i)){
         for(q=0; q<(ans.length-4); q=q+4){
             ans=ans.slice(4).concat(ans.slice(0,4));
         }
