@@ -1,3 +1,5 @@
+const readline = require('readline-sync');
+
 function multThree(a){
     return(a%3 === 0);
 }
@@ -18,11 +20,19 @@ function multSeventeen(a){
 }
 
 
-for (i = 1; i <=300; i++) { 
+console.log("How many numbers do you want?")
+const num = parseInt(readline.prompt());
+
+
+for (i = 1; i <=num; i++) { 
     var ans = '';
     var notNum= true;
     if(multThree(i)){
         ans = 'Fizz';
+        notNum=false;
+    }
+    if(multThirteen(i)){
+        ans=ans.concat('Fezz');
         notNum=false;
     }
     if(multFive(i)){
@@ -33,18 +43,8 @@ for (i = 1; i <=300; i++) {
         ans=ans.concat('Bang');
         notNum=false;
     }
-
     if(multEleven(i)){
         ans='Bong';
-        notNum=false;
-    }
-
-    if(multThirteen(i)){
-        if(multThree(i)){
-            ans=[ans.slice(0, 4), 'Fezz', ans.slice(4)].join('');         
-        }else{
-            ans='Fezz'.concat(ans);
-        }
         notNum=false;
     }
 
