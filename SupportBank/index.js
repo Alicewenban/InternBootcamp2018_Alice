@@ -1,13 +1,25 @@
+
 var readlineSync = require('readline-sync');
 var fs = require('fs');
 var moment = require('moment');
-var data= require('./dataInput')
+var data= require('./dataInput');
+var log4js = require('log4js');
+
+log4js.configure({
+    appenders: {
+        file: { type: 'fileSync', filename: 'logs/debug.log' }
+    },
+    categories: {
+        default: { appenders: ['file'], level: 'debug'}
+    }
+});
+
 
 
 function ListAll(){
     //prints out all the accounts
     for (var key of personMap.keys()) {
-        if(key!= undefined){ console.log(key + ' ' +personMap.get(key).balence);}
+        if(key!= undefined){ console.log(key + ' ' +Math.round(personMap.get(key).balence * 100) / 100);}
     }
 
 }
@@ -26,7 +38,9 @@ function ListAllAccount(name){
 
 
 //main body
-var personMap = data.takeIndata();
+const returns = data.takeIndata();
+var personMap=returns[0];
+var Transactions=returns[1];
 console.log('would you like to list all or look for a name (for list all input listAll else just type name)')
 const response= readlineSync.prompt()
 if(response==='listAll'){
