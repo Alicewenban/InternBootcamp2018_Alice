@@ -11,6 +11,39 @@ function findBpos(ans){
     }
     return ans.length;
 }
+
+function ruleCreate(word,pos){
+    return function(strg){
+        if(pos==='f'){
+            return word.concat(strg)
+        }else{
+            return strg.concat(word)
+        }
+    }
+}
+
+function askAndCreateRule(){
+    console.log("would you like to add a rule? (y/n)")
+        const response = readline.prompt();
+        if(response==='n'){
+            return false
+        }else{
+            //add rule
+            
+            console.log("what number is the rule for?(if you pick a pre defiend number it will be redefined)")
+            const num = parseInt(readline.prompt());
+            console.log("what word do you want to use?(please use 4 letters)")
+            const word = readline.prompt();
+            console.log("do you want the word at the front of back?(f/b)")
+            const position = readline.prompt();
+            ruleapply[num]=ruleFun(true)(num);
+            ruleFunctions[num]=ruleCreate(word,position);
+            return true
+        }
+}
+
+
+
 var ruleFun= function(valid){ return function(ruleNum){ return function(testNum){return valid && divisertest(testNum,ruleNum)}}}
 
 console.log("How many numbers do you want?")
@@ -19,7 +52,7 @@ var ruleapply=Array(num);
 var ruleFunctions=Array(num);
 //rules inputting
 for (let a=0; a<num; a++){
-    ruleapply[a]=function(a){return a};
+    ruleFunctions[a]=function(a){return a};
 }   
 // adding pre set rules
 ruleFunctions[3]= function(ans){ return 'Fizz'.concat(ans);}
@@ -31,8 +64,8 @@ ruleFunctions[13]= function(ans){
     return [ans.slice(0,n),"Fezz",ans.slice(n)].join('');
 }
 ruleFunctions[17]= function(ans){
-    for(q=0; q<(ans.length-4); q=q+4){
-     ans=ans.slice(4).concat(ans.slice(0,4));   
+    for(let q=4; q<(ans.length); q=q+4){
+        ans=ans.slice(q).concat(ans.slice(0,q));   
     }
     return ans;
 }
@@ -40,7 +73,7 @@ ruleFunctions[17]= function(ans){
 console.log("what rules do you want? \n\ please select from the following 3,5,7,11,13,17 \n\ seprate by commers e.g if you want 3 5 and 7 input 3,5,7 ")
 const rule = readline.prompt();
 const arrRules = rule.split(',');
-for (a=0; a<18; a++){
+for (a=0; a<num; a++){
     ruleapply[a]=function(num){return false};
 }   
 
@@ -66,36 +99,22 @@ for(p=0; p<arrRules.length; p++){
         break;
     }
 }
-
+    do{
+        var rep=askAndCreateRule();
+    }while(rep)
 
 for (i = 1; i <=num; i++) { 
     var ans = '';
     var notNum= true;
-    //add specil rule for 11
-    if(ruleapply[3](i)){
-        ans = ruleFunctions[3](ans);
-        notNum=false;
+  
+    for(q=0; q<num; q++){
+        if(ruleapply[q](i)){
+            ans = ruleFunctions[q](ans);
+            if(q!=17){notNum=false;}
+        }
+       
+        if(q===11){continue;}
     }
-    if(ruleapply[13](i)){
-        ans = ruleFunctions[13](ans);
-        notNum=false;
-    }
-    if(ruleapply[5](i)){
-        ans = ruleFunctions[5](ans);
-        notNum=false;
-    }
-    if(ruleapply[7](i)){
-        ans = ruleFunctions[7](ans);
-        notNum=false;
-    }
-    if(ruleapply[11](i)){
-        ans = ruleFunctions[11](ans);
-        notNum=false;
-    }
-    if(ruleapply[17](i)){
-        ans = ruleFunctions[17](ans);
-    }
-
 
     if(notNum){
         console.log(i);    
