@@ -29,13 +29,29 @@ function askAndCreateRule(){
             return false
         }else{
             //add rule
-            
-            console.log("what number is the rule for?(if you pick a pre defiend number it will be redefined)")
-            const num = parseInt(readline.prompt());
-            console.log("what word do you want to use?(please use 4 letters)")
-            const word = readline.prompt();
-            console.log("do you want the word at the front of back?(f/b)")
-            const position = readline.prompt();
+            var valid=false;
+            do{
+                console.log("what number is the rule for?(if you pick a pre defiend number it will be redefined)")
+                var num = readline.prompt();
+                if(!isNaN(num)){
+                    valid=true; 
+                    num= parseInt(num);
+                }
+            }while(!valid)
+            valid=false;
+            do{
+                console.log("what word do you want to use?(please use 4 letters)")
+                var word = readline.prompt();
+                if(word.length===4){valid=true;}
+            }while(!valid)
+
+            valid= false;
+            do{
+                console.log("do you want the word at the front of back?(f/b)")
+                var position = readline.prompt();
+                if(position==='f'||position==='b'){valid=true;}
+            }while(!valid)
+
             ruleapply[num]=ruleFun(true)(num);
             ruleFunctions[num]=ruleCreate(word,position);
             return true
