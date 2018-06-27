@@ -10,6 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "fs": "0.0.1-security",
+    "log4js": "^2.10.0",
+    "moment": "^2.22.2",
     "readline-sync": "^1.4.9"
   }
 }
