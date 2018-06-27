@@ -8,32 +8,49 @@ class account {
     }
   }
 
+  class transation {
+    constructor(date,from,to,narrative,amount) {
+      this.date = date;
+      this.from = from;
+      this.to=to;
+      this.narrative=narrative;
+      this.amount=amount;
+    }
+  }
+
 //readng in the file as a stream
 var lines = fs.readFileSync('Transactions2014.csv', 'utf-8').split('\n')
 
-function ListAll(){
-    //creaate a map to hold name -> person object
-    var personMap = new Map();
+//goes through and makes each transation an object
+var Transactions= Array();
+for(let i=1;i<lines.length;i++){
+    let element=lines[i].split(',');
+    Transactions.push(new transation(element[0],element[1],element[2],element[3],element[4],element[5]))
+}
 
-    //goes through each line and adds to the dataMap
-    //starts on line 1 to ignore intro
-    for(let i=1;i<lines.length;i++){
-        let element=lines[i].split(',');
-        //check to see if first name is present
-        if(element[1] in personMap){
-            personMap.get(element[1]).balence=personMap.get(element[1]).balence - element[4];
-        }else{
-            personMap.set(element[1],new account(element[2],-element[4]));
-        }
-        //check to see if second name is present
-        if(element[2] in personMap){
-            personMap.get(element[2]).balence=personMap.get(element[2]).balence + element[4];
-        }else{
-            personMap.set(element[2],new account(element[2],-element[4]));
-        }
-        
+//makes all accounts and puts them in the map
+var personMap = new Map();
+
+//goes through each line and adds to the dataMap
+//starts on line 1 to ignore intro
+for(var trans of Transactions){
+    //check to see if first name is present
+    if(trans.to in personMap){
+        personMap.get(trans.to).balence=personMap.get(trans.to).balence - trans.amount;
+    }else{
+        personMap.set(trans.to,new account(trans.to,-trans.amount));
     }
+    //check to see if second name is present
+    if(trans.from in personMap){
+        personMap.get(trans.from).balence=personMap.get(trans.from).balence + trans.amount;
+    }else{
+        personMap.set(trans.from,new account(trans.from,trans.amount));
+    }
+    
+}
 
+
+function ListAll(){
     //prints out all the accounts
     for (var key of personMap.keys()) {
         if(key!= undefined){ console.log(key + ' ' +personMap.get(key).balence);}
@@ -44,11 +61,10 @@ function ListAll(){
 
 function ListAllAccount(name){
     //starts on line 1 to ignore intro
-    for(let i=1;i<lines.length;i++){
-        let element=lines[i].split(',');   
+    for(var trans of Transactions){  
         //print each element if relevent
-        if(element[1]===name || element[2] ===name){
-          console.log('date: '+element[0]+ ' from: '+element[1]+ ' to: '+element[2]+ ' narrative: '+ element[3] +' amount: ' + element[4].toString());
+        if(trans.to===name || trans.from ===name){
+          console.log('date: '+trans.date+ ' from: '+trans.from+ ' to: '+trans.to+ ' narrative: '+ trans.narrative +' amount: ' + trans.amount);
         }
         
     }
