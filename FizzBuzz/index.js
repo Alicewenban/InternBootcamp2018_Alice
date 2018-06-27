@@ -52,7 +52,7 @@ function askAndCreateRule(){
                 if(position==='f'||position==='b'){valid=true;}
             }while(!valid)
 
-            ruleapply[num]=ruleFun(true)(num);
+            ruleapply[num]=ruleFun(num);
             ruleFunctions[num]=ruleCreate(word,position);
             return true
         }
@@ -60,7 +60,7 @@ function askAndCreateRule(){
 
 
 
-var ruleFun= function(valid){ return function(ruleNum){ return function(testNum){return valid && divisertest(testNum,ruleNum)}}}
+var ruleFun= function(ruleNum){return function(testNum){return divisertest(testNum,ruleNum)}}
 
 console.log("How many numbers do you want?")
 const num = parseInt(readline.prompt());
@@ -96,22 +96,22 @@ for (a=0; a<num; a++){
 for(p=0; p<arrRules.length; p++){
     switch(arrRules[p]){
         case('3'):
-            ruleapply[3] = ruleFun(true)(3);
+            ruleapply[3] = ruleFun(3);
         break;
         case('5'):
-            ruleapply[5]  = ruleFun(true)(5);
+            ruleapply[5]  = ruleFun(5);
         break;
         case('7'):
-            ruleapply[7]  = ruleFun(true)(7);
+            ruleapply[7]  = ruleFun(7);
         break;
         case('11'):
-            ruleapply[11]  = ruleFun(true)(11);
+            ruleapply[11]  = ruleFun(11);
         break;
         case('13'):
-            ruleapply[13]  = ruleFun(true)(13);
+            ruleapply[13]  = ruleFun(13);
         break;
         case('17'):
-            ruleapply[17]  = ruleFun(true)(17);
+            ruleapply[17]  = ruleFun(17);
         break;
     }
 }
