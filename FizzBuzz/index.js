@@ -64,12 +64,17 @@ var ruleFun= function(ruleNum){return function(testNum){return divisertest(testN
 
 console.log("How many numbers do you want?")
 const num = parseInt(readline.prompt());
+
+
 var ruleapply=Array(num);
 var ruleFunctions=Array(num);
+
+
 //rules inputting
 for (let a=0; a<num; a++){
     ruleFunctions[a]=function(a){return a};
 }   
+
 // adding pre set rules
 ruleFunctions[3]= function(ans){ return 'Fizz'.concat(ans);}
 ruleFunctions[5]= function(ans){ return ans.concat('Buzz');}
@@ -86,13 +91,17 @@ ruleFunctions[17]= function(ans){
     return ans;
 }
 
+
 console.log("what rules do you want? \n\ please select from the following 3,5,7,11,13,17 \n\ seprate by commers e.g if you want 3 5 and 7 input 3,5,7 ")
 const rule = readline.prompt();
 const arrRules = rule.split(',');
+
+//asume no rules are set
 for (a=0; a<num; a++){
     ruleapply[a]=function(num){return false};
 }   
 
+//set reevent rules to valid
 for(p=0; p<arrRules.length; p++){
     switch(arrRules[p]){
         case('3'):
@@ -115,10 +124,12 @@ for(p=0; p<arrRules.length; p++){
         break;
     }
 }
+//asks user to input rules
     do{
         var rep=askAndCreateRule();
     }while(rep)
-
+    
+//prints awnsers
 for (i = 1; i <=num; i++) { 
     var ans = '';
     var notNum= true;
