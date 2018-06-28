@@ -4,6 +4,8 @@ var fs = require('fs');
 var moment = require('moment');
 var data= require('./dataInput');
 var log4js = require('log4js');
+var fEx=require('./FindExstention');
+var userAcounts=require('./userAcounts');
 
 log4js.configure({
     appenders: {
@@ -38,13 +40,28 @@ function ListAllAccount(name){
 
 
 //main body
-const returns = data.takeIndata();
-var personMap=returns[0];
-var Transactions=returns[1];
-console.log('would you like to list all or look for a name (for list all input listAll else just type name)')
-const response= readlineSync.prompt()
-if(response==='listAll'){
-    ListAll();
-}else{
-    ListAllAccount(response);
-}
+console.log('pleae enter the file you want us to read(remeber to include the exstention)');
+const fileName= readlineSync.prompt()
+const ext = fEx.findExt(fileName);
+var Transactions=Array();
+Transactions=data.makeTransactions(fileName,ext,Transactions);
+var personMap=userAcounts.makeAccounts(Transactions);
+
+
+do{
+    console.log('would you like to upload anouther file, list all or look for a name (for list all input listAll,importFile filename else just type name)\n\ type N to quit')
+    const response= readlineSync.prompt()
+    var quit=false
+    console.log(response.slice(0,12))
+    if(response==='listAll'){
+        ListAll();
+    }else if(response==='N'){
+        quit=true;    
+    }else if(response.slice(0,10)==='importFile'){
+        const fileName=response.slice(11)
+        Transactions=data.makeTransactions(fileName,ext,Transactions);
+        var personMap=userAcounts.makeAccounts(Transactions);
+    }else{
+        ListAllAccount(response);
+    }
+}while(quit===false);

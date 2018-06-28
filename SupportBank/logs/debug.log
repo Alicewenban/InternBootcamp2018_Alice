@@ -56,3 +56,303 @@
 [2018-06-27T16:48:38.133] [DEBUG] logs/debug.log - Last Thursday Date NOT valid
 [2018-06-27T16:52:58.547] [DEBUG] logs/debug.log - One Cheeseburger Amount NOT valid
 [2018-06-27T16:52:58.552] [DEBUG] logs/debug.log - Last Thursday Date NOT valid
+[2018-06-27T17:10:26.651] [DEBUG] logs/debug.log - date: 26/02/2015 from: Stephen S to: Jon A narrative: Pokemon Training amount: 4.23NaN
+[2018-06-27T17:10:26.656] [DEBUG] logs/debug.log - date: 27/04/2015 from: Ben B to: Jon A narrative: Pokemon Training amount: 10.91 Date NOT valid
+[2018-06-27T17:10:36.118] [DEBUG] logs/debug.log - date: 26/02/2015 from: Stephen S to: Jon A narrative: Pokemon Training amount: 4.23NaN
+[2018-06-27T17:10:36.122] [DEBUG] logs/debug.log - date: 27/04/2015 from: Ben B to: Jon A narrative: Pokemon Training amount: 10.91 Date NOT valid
+[2018-06-28T09:55:24.067] [DEBUG] logs/debug.log - date: 01/01/2014 from: Jon A to: Sarah T narrative: Pokemon Training amount: 7.8NaN
+[2018-06-28T09:55:24.071] [DEBUG] logs/debug.log - date: 04/01/2014 from: Stephen S to: Tim L narrative: Lunch amount: 4.37NaN
+[2018-06-28T09:55:24.073] [DEBUG] logs/debug.log - date: 08/01/2014 from: Laura B to: Stephen S narrative: Lunch amount: 5.09NaN
+[2018-06-28T09:55:24.076] [DEBUG] logs/debug.log - date: 11/01/2014 from: Rob S to: Ben B narrative: Misc Morale amount: 7.8NaN
+[2018-06-28T09:55:24.078] [DEBUG] logs/debug.log - date: 14/01/2014 from: Stephen S to: Ben B narrative: Beers amount: 7.36NaN
+[2018-06-28T09:55:24.080] [DEBUG] logs/debug.log - date: 15/01/2014 from: Sam N to: Stephen S narrative: Spline Reticulation amount: 11.63NaN
+[2018-06-28T09:55:24.081] [DEBUG] logs/debug.log - date: 19/01/2014 from: Stephen S to: Gergana I narrative: Beers amount: 5.88NaN
+[2018-06-28T09:55:24.082] [DEBUG] logs/debug.log - date: 20/01/2014 from: Sam N to: Stephen S narrative: Beers amount: 8.2NaN
+[2018-06-28T09:55:24.099] [DEBUG] logs/debug.log - date: 24/01/2014 from: Laura B to: Sam N narrative: Coffee amount: 11.68NaN
+[2018-06-28T09:55:24.102] [DEBUG] logs/debug.log - date: 28/01/2014 from: Todd to: Ben B narrative: Coffee amount: 6.81NaN
+[2018-06-28T09:55:24.106] [DEBUG] logs/debug.log - date: 31/01/2014 from: Sam N to: Gergana I narrative: Services Rendered amount: 6.29NaN
+[2018-06-28T09:55:24.119] [DEBUG] logs/debug.log - date: 01/02/2014 from: Todd to: Ben B narrative: Snooker Night amount: 6.87NaN
+[2018-06-28T09:55:24.126] [DEBUG] logs/debug.log - date: 04/02/2014 from: Chris W to: Ben B narrative: Spline Reticulation amount: 6.03NaN
+[2018-06-28T09:55:24.130] [DEBUG] logs/debug.log - date: 05/02/2014 from: Todd to: Rob S narrative: Sandbox Help amount: 5.62NaN
+[2018-06-28T09:55:24.134] [DEBUG] logs/debug.log - date: 07/02/2014 from: Jon A to: Sam N narrative: Beers amount: 1.65NaN
+[2018-06-28T09:55:24.141] [DEBUG] logs/debug.log - date: 10/02/2014 from: Dan W to: Sam N narrative: Lunch amount: 0.93NaN
+[2018-06-28T09:55:24.145] [DEBUG] logs/debug.log - date: 14/02/2014 from: Laura B to: Stephen S narrative: Snooker Night amount: 10.78NaN
+[2018-06-28T09:55:24.157] [DEBUG] logs/debug.log - date: 15/02/2014 from: Stephen S to: Gergana I narrative: Rails Consultancy amount: 6.91NaN
+[2018-06-28T09:55:24.160] [DEBUG] logs/debug.log - date: 18/02/2014 from: Sarah T to: Sam N narrative: Spline Reticulation amount: 1.6NaN
+[2018-06-28T09:55:24.166] [DEBUG] logs/debug.log - date: 22/02/2014 from: Tim L to: Sam N narrative: Pokemon Training amount: 5.2NaN
+[2018-06-28T09:55:24.174] [DEBUG] logs/debug.log - date: 25/02/2014 from: Todd to: Rob S narrative: Automated Testing Services amount: 7.1NaN
+[2018-06-28T09:55:24.178] [DEBUG] logs/debug.log - date: 27/02/2014 from: Ben B to: Rob S narrative: Snooker Night amount: 8.41NaN
+[2018-06-28T09:55:24.182] [DEBUG] logs/debug.log - date: 01/03/2014 from: Stephen S to: Jon A narrative: Coffee amount: 8.75NaN
+[2018-06-28T09:55:24.192] [DEBUG] logs/debug.log - date: 03/03/2014 from: Sam N to: Gergana I narrative: Lunch amount: 8.76NaN
+[2018-06-28T09:55:24.196] [DEBUG] logs/debug.log - date: 07/03/2014 from: Todd to: Laura B narrative: Pokemon Training amount: 9.39NaN
+[2018-06-28T09:55:24.199] [DEBUG] logs/debug.log - date: 10/03/2014 from: Todd to: Gergana I narrative: Sandbox Help amount: 1.62NaN
+[2018-06-28T09:55:24.207] [DEBUG] logs/debug.log - date: 14/03/2014 from: Sarah T to: Ben B narrative: Spline Reticulation amount: 2.1NaN
+[2018-06-28T09:55:24.211] [DEBUG] logs/debug.log - date: 17/03/2014 from: Sarah T to: Stephen S narrative: Beers amount: 0.66NaN
+[2018-06-28T09:55:24.220] [DEBUG] logs/debug.log - date: 20/03/2014 from: Tim L to: Sarah T narrative: Lego Assistance amount: 2.28NaN
+[2018-06-28T09:55:24.223] [DEBUG] logs/debug.log - date: 22/03/2014 from: Rob S to: Tim L narrative: Misc Morale amount: 1.95NaN
+[2018-06-28T09:55:24.227] [DEBUG] logs/debug.log - date: 23/03/2014 from: Jon A to: Sam N narrative: Lunch amount: 8.49NaN
+[2018-06-28T09:55:24.236] [DEBUG] logs/debug.log - date: 27/03/2014 from: Ben B to: Sam N narrative: Misc Morale amount: 10.76NaN
+[2018-06-28T09:55:24.241] [DEBUG] logs/debug.log - date: 29/03/2014 from: Todd to: Sarah T narrative: Git-Fu Rendered amount: 5.01NaN
+[2018-06-28T09:55:24.250] [DEBUG] logs/debug.log - date: 30/03/2014 from: Dan W to: Laura B narrative: Lunch amount: 4.77NaN
+[2018-06-28T09:55:24.253] [DEBUG] logs/debug.log - date: 01/04/2014 from: Sam N to: Laura B narrative: Lunch amount: 2.87NaN
+[2018-06-28T09:55:24.256] [DEBUG] logs/debug.log - date: 04/04/2014 from: Todd to: Ben B narrative: Rails Consultancy amount: 10.85NaN
+[2018-06-28T09:55:24.285] [DEBUG] logs/debug.log - date: 06/04/2014 from: Jon A to: Stephen S narrative: Beers amount: 8.91NaN
+[2018-06-28T09:55:24.288] [DEBUG] logs/debug.log - date: 08/04/2014 from: Stephen S to: Sam N narrative: Lego Assistance amount: 2.96NaN
+[2018-06-28T09:55:24.291] [DEBUG] logs/debug.log - date: 09/04/2014 from: Ben B to: Rob S narrative: Coffee amount: 1.31NaN
+[2018-06-28T09:55:24.301] [DEBUG] logs/debug.log - date: 10/04/2014 from: Todd to: Sarah T narrative: Snooker Night amount: 3.55NaN
+[2018-06-28T09:55:24.305] [DEBUG] logs/debug.log - date: 11/04/2014 from: Todd to: Laura B narrative: Coffee amount: 3.72NaN
+[2018-06-28T09:55:24.308] [DEBUG] logs/debug.log - date: 15/04/2014 from: Rob S to: Sam N narrative: Snooker Night amount: 8.86NaN
+[2018-06-28T09:55:24.317] [DEBUG] logs/debug.log - date: 19/04/2014 from: Ben B to: Gergana I narrative: Lunch amount: 7.61NaN
+[2018-06-28T09:55:24.320] [DEBUG] logs/debug.log - date: 20/04/2014 from: Dan W to: Gergana I narrative: Beers amount: 11.92NaN
+[2018-06-28T09:55:24.323] [DEBUG] logs/debug.log - date: 23/04/2014 from: Stephen S to: Rob S narrative: Poker Winnings amount: 3.41NaN
+[2018-06-28T09:55:24.344] [DEBUG] logs/debug.log - date: 24/04/2014 from: Tim L to: Dan W narrative: Misc Morale amount: 6.38NaN
+[2018-06-28T09:55:24.348] [DEBUG] logs/debug.log - date: 26/04/2014 from: Todd to: Tim L narrative: Lunch amount: 1.46NaN
+[2018-06-28T09:55:24.351] [DEBUG] logs/debug.log - date: 30/04/2014 from: Laura B to: Ben B narrative: Golf Bets amount: 5.77NaN
+[2018-06-28T09:55:24.366] [DEBUG] logs/debug.log - date: 03/05/2014 from: Jon A to: Gergana I narrative: Rails Consultancy amount: 10.51NaN
+[2018-06-28T09:55:24.374] [DEBUG] logs/debug.log - date: 05/05/2014 from: Dan W to: Sarah T narrative: Stationary Items amount: 5.06NaN
+[2018-06-28T09:55:24.379] [DEBUG] logs/debug.log - date: 06/05/2014 from: Tim L to: Chris W narrative: Audit and Other Financial Services amount: 7.45NaN
+[2018-06-28T09:55:24.390] [DEBUG] logs/debug.log - date: 10/05/2014 from: Laura B to: Todd narrative: Lego Assistance amount: 10.63NaN
+[2018-06-28T09:55:24.394] [DEBUG] logs/debug.log - date: 13/05/2014 from: Tim L to: Ben B narrative: Coffee amount: 5.89NaN
+[2018-06-28T09:55:24.397] [DEBUG] logs/debug.log - date: 17/05/2014 from: Rob S to: Sarah T narrative: Misc Morale amount: 3.61NaN
+[2018-06-28T09:55:24.405] [DEBUG] logs/debug.log - date: 19/05/2014 from: Jon A to: Todd narrative: Beers amount: 9.04NaN
+[2018-06-28T09:55:24.408] [DEBUG] logs/debug.log - date: 22/05/2014 from: Tim L to: Todd narrative: Coffee amount: 3.81NaN
+[2018-06-28T09:55:24.412] [DEBUG] logs/debug.log - date: 24/05/2014 from: Sam N to: Tim L narrative: Sandcastle Help amount: 8.8NaN
+[2018-06-28T09:55:24.421] [DEBUG] logs/debug.log - date: 26/05/2014 from: Ben B to: Laura B narrative: Lunch amount: 7.36NaN
+[2018-06-28T09:55:24.424] [DEBUG] logs/debug.log - date: 30/05/2014 from: Laura B to: Todd narrative: Lunch amount: 7.01NaN
+[2018-06-28T09:55:24.428] [DEBUG] logs/debug.log - date: 31/05/2014 from: Tim L to: Ben B narrative: Coffee amount: 8.23NaN
+[2018-06-28T09:55:24.437] [DEBUG] logs/debug.log - date: 01/06/2014 from: Tim L to: Stephen S narrative: Rails Consultancy amount: 5.2NaN
+[2018-06-28T09:55:24.440] [DEBUG] logs/debug.log - date: 05/06/2014 from: Dan W to: Gergana I narrative: Spline Reticulation amount: 5.61NaN
+[2018-06-28T09:55:24.443] [DEBUG] logs/debug.log - date: 09/06/2014 from: Sarah T to: Stephen S narrative: Lego Assistance amount: 11.5NaN
+[2018-06-28T09:55:24.454] [DEBUG] logs/debug.log - date: 11/06/2014 from: Stephen S to: Sam N narrative: Lego Assistance amount: 5.14NaN
+[2018-06-28T09:55:24.458] [DEBUG] logs/debug.log - date: 14/06/2014 from: Todd to: Sam N narrative: Lego Assistance amount: 6.3NaN
+[2018-06-28T09:55:24.461] [DEBUG] logs/debug.log - date: 16/06/2014 from: Stephen S to: Dan W narrative: Lunch amount: 4.79NaN
+[2018-06-28T09:55:24.470] [DEBUG] logs/debug.log - date: 20/06/2014 from: Ben B to: Chris W narrative: Rails Consultancy amount: 1.34NaN
+[2018-06-28T09:55:24.473] [DEBUG] logs/debug.log - date: 22/06/2014 from: Tim L to: Stephen S narrative: Coffee amount: 6.44NaN
+[2018-06-28T09:55:24.485] [DEBUG] logs/debug.log - date: 23/06/2014 from: Stephen S to: Ben B narrative: Spline Reticulation amount: 11.85NaN
+[2018-06-28T09:55:24.488] [DEBUG] logs/debug.log - date: 26/06/2014 from: Chris W to: Todd narrative: Beers amount: 9.81NaN
+[2018-06-28T09:55:24.492] [DEBUG] logs/debug.log - date: 28/06/2014 from: Sarah T to: Gergana I narrative: Beers amount: 4.03NaN
+[2018-06-28T09:55:24.500] [DEBUG] logs/debug.log - date: 29/06/2014 from: Chris W to: Laura B narrative: Jenkins Fees amount: 8.7NaN
+[2018-06-28T09:55:24.503] [DEBUG] logs/debug.log - date: 01/07/2014 from: Rob S to: Jon A narrative: Lunch amount: 2.67NaN
+[2018-06-28T09:55:24.506] [DEBUG] logs/debug.log - date: 02/07/2014 from: Stephen S to: Dan W narrative: Lego Assistance amount: 2.9NaN
+[2018-06-28T09:55:24.535] [DEBUG] logs/debug.log - date: 06/07/2014 from: Sam N to: Jon A narrative: Beers amount: 4.37NaN
+[2018-06-28T09:55:24.538] [DEBUG] logs/debug.log - date: 09/07/2014 from: Dan W to: Tim L narrative: Misc Morale amount: 5.45NaN
+[2018-06-28T09:55:24.541] [DEBUG] logs/debug.log - date: 11/07/2014 from: Dan W to: Sarah T narrative: Misc Morale amount: 5.05NaN
+[2018-06-28T09:55:24.551] [DEBUG] logs/debug.log - date: 14/07/2014 from: Gergana I to: Sam N narrative: Coffee amount: 10.92NaN
+[2018-06-28T09:55:24.555] [DEBUG] logs/debug.log - date: 16/07/2014 from: Jon A to: Dan W narrative: Coffee amount: 11.75NaN
+[2018-06-28T09:55:24.558] [DEBUG] logs/debug.log - date: 18/07/2014 from: Gergana I to: Stephen S narrative: Snooker Night amount: 11.57NaN
+[2018-06-28T09:55:24.569] [DEBUG] logs/debug.log - date: 22/07/2014 from: Sarah T to: Ben B narrative: Coffee amount: 11.56NaN
+[2018-06-28T09:55:24.572] [DEBUG] logs/debug.log - date: 23/07/2014 from: Rob S to: Tim L narrative: Lego Assistance amount: 11.47NaN
+[2018-06-28T09:55:24.575] [DEBUG] logs/debug.log - date: 25/07/2014 from: Laura B to: Stephen S narrative: Poker Winnings amount: 9.42NaN
+[2018-06-28T09:55:24.585] [DEBUG] logs/debug.log - date: 28/07/2014 from: Gergana I to: Chris W narrative: Pokemon Training amount: 2.33NaN
+[2018-06-28T09:55:24.589] [DEBUG] logs/debug.log - date: 29/07/2014 from: Jon A to: Sam N narrative: Lunch amount: 5.31NaN
+[2018-06-28T09:55:24.600] [DEBUG] logs/debug.log - date: 01/08/2014 from: Sam N to: Gergana I narrative: Coffee amount: 2.72NaN
+[2018-06-28T09:55:24.603] [DEBUG] logs/debug.log - date: 03/08/2014 from: Laura B to: Rob S narrative: Rails Consultancy amount: 6.26NaN
+[2018-06-28T09:55:24.605] [DEBUG] logs/debug.log - date: 04/08/2014 from: Gergana I to: Ben B narrative: Coffee amount: 7.81NaN
+[2018-06-28T09:55:24.615] [DEBUG] logs/debug.log - date: 08/08/2014 from: Tim L to: Laura B narrative: Coffee amount: 3.76NaN
+[2018-06-28T09:55:24.618] [DEBUG] logs/debug.log - date: 11/08/2014 from: Stephen S to: Rob S narrative: Lunch amount: 8.91NaN
+[2018-06-28T09:55:24.621] [DEBUG] logs/debug.log - date: 13/08/2014 from: Sarah T to: Todd narrative: Beers amount: 8.25NaN
+[2018-06-28T09:55:24.630] [DEBUG] logs/debug.log - date: 14/08/2014 from: Chris W to: Tim L narrative: Misc Morale amount: 6.59NaN
+[2018-06-28T09:55:24.634] [DEBUG] logs/debug.log - date: 18/08/2014 from: Jon A to: Tim L narrative: Lego Assistance amount: 7.22NaN
+[2018-06-28T09:55:24.637] [DEBUG] logs/debug.log - date: 21/08/2014 from: Ben B to: Gergana I narrative: Rails Consultancy amount: 9.25NaN
+[2018-06-28T09:55:24.658] [DEBUG] logs/debug.log - date: 22/08/2014 from: Chris W to: Sam N narrative: Golf Bets amount: 1.9NaN
+[2018-06-28T09:55:24.661] [DEBUG] logs/debug.log - date: 23/08/2014 from: Ben B to: Stephen S narrative: Lunch amount: 5.02NaN
+[2018-06-28T09:55:24.665] [DEBUG] logs/debug.log - date: 24/08/2014 from: Laura B to: Stephen S narrative: Audit and Other Financial Services amount: 7.45NaN
+[2018-06-28T09:55:24.676] [DEBUG] logs/debug.log - date: 25/08/2014 from: Gergana I to: Stephen S narrative: Beers amount: 8.57NaN
+[2018-06-28T09:55:24.680] [DEBUG] logs/debug.log - date: 28/08/2014 from: Laura B to: Tim L narrative: Beers amount: 0.57NaN
+[2018-06-28T09:55:24.690] [DEBUG] logs/debug.log - date: 29/08/2014 from: Ben B to: Chris W narrative: Lunch amount: 1.66NaN
+[2018-06-28T09:55:24.694] [DEBUG] logs/debug.log - date: 01/09/2014 from: Sam N to: Gergana I narrative: Pokemon Training amount: 9.41NaN
+[2018-06-28T09:55:24.696] [DEBUG] logs/debug.log - date: 03/09/2014 from: Jon A to: Tim L narrative: Lunch amount: 8.13NaN
+[2018-06-28T09:55:24.705] [DEBUG] logs/debug.log - date: 06/09/2014 from: Dan W to: Todd narrative: Lunch amount: 1.8NaN
+[2018-06-28T09:55:24.710] [DEBUG] logs/debug.log - date: 09/09/2014 from: Todd to: Dan W narrative: Audit and Other Financial Services amount: 3.93NaN
+[2018-06-28T09:55:24.721] [DEBUG] logs/debug.log - date: 12/09/2014 from: Laura B to: Jon A narrative: Git-Fu Rendered amount: 3.11NaN
+[2018-06-28T09:55:24.724] [DEBUG] logs/debug.log - date: 16/09/2014 from: Gergana I to: Rob S narrative: Golf Bets amount: 1.28NaN
+[2018-06-28T09:55:24.728] [DEBUG] logs/debug.log - date: 20/09/2014 from: Jon A to: Ben B narrative: Beers amount: 3.71NaN
+[2018-06-28T09:55:24.737] [DEBUG] logs/debug.log - date: 24/09/2014 from: Jon A to: Laura B narrative: Golf Bets amount: 5.61NaN
+[2018-06-28T09:55:24.740] [DEBUG] logs/debug.log - date: 27/09/2014 from: Sarah T to: Dan W narrative: Beers amount: 11.6NaN
+[2018-06-28T09:55:24.749] [DEBUG] logs/debug.log - date: 29/09/2014 from: Ben B to: Tim L narrative: Misc Morale amount: 3.43NaN
+[2018-06-28T09:55:24.753] [DEBUG] logs/debug.log - date: 30/09/2014 from: Jon A to: Dan W narrative: Sandbox Help amount: 9.26NaN
+[2018-06-28T09:55:24.755] [DEBUG] logs/debug.log - date: 04/10/2014 from: Ben B to: Todd narrative: Lunch amount: 11.28NaN
+[2018-06-28T09:55:24.782] [DEBUG] logs/debug.log - date: 06/10/2014 from: Sarah T to: Tim L narrative: Spline Reticulation amount: 7.44NaN
+[2018-06-28T09:55:24.787] [DEBUG] logs/debug.log - date: 10/10/2014 from: Ben B to: Gergana I narrative: Beers amount: 3.98NaN
+[2018-06-28T09:55:24.790] [DEBUG] logs/debug.log - date: 14/10/2014 from: Ben B to: Gergana I narrative: Coffee amount: 11.65NaN
+[2018-06-28T09:55:24.793] [DEBUG] logs/debug.log - date: 18/10/2014 from: Gergana I to: Rob S narrative: Jenkins Fees amount: 5.47NaN
+[2018-06-28T09:55:24.802] [DEBUG] logs/debug.log - date: 19/10/2014 from: Dan W to: Sam N narrative: Automated Testing Services amount: 8NaN
+[2018-06-28T09:55:24.806] [DEBUG] logs/debug.log - date: 22/10/2014 from: Dan W to: Sam N narrative: Beers amount: 0.55NaN
+[2018-06-28T09:55:24.809] [DEBUG] logs/debug.log - date: 23/10/2014 from: Jon A to: Dan W narrative: Lunch amount: 2.37NaN
+[2018-06-28T09:55:24.821] [DEBUG] logs/debug.log - date: 25/10/2014 from: Laura B to: Todd narrative: Beers amount: 8.42NaN
+[2018-06-28T09:55:24.823] [DEBUG] logs/debug.log - date: 28/10/2014 from: Gergana I to: Dan W narrative: Misc Morale amount: 5.04NaN
+[2018-06-28T09:55:24.826] [DEBUG] logs/debug.log - date: 29/10/2014 from: Dan W to: Ben B narrative: Rails Consultancy amount: 5.87NaN
+[2018-06-28T09:55:24.836] [DEBUG] logs/debug.log - date: 30/10/2014 from: Chris W to: Gergana I narrative: Jenkins Fees amount: 8.9NaN
+[2018-06-28T09:55:24.839] [DEBUG] logs/debug.log - date: 02/11/2014 from: Sarah T to: Tim L narrative: Lego Assistance amount: 4.67NaN
+[2018-06-28T09:55:24.843] [DEBUG] logs/debug.log - date: 04/11/2014 from: Chris W to: Rob S narrative: Sandbox Help amount: 6.15NaN
+[2018-06-28T09:55:24.851] [DEBUG] logs/debug.log - date: 07/11/2014 from: Rob S to: Ben B narrative: Rails Consultancy amount: 3NaN
+[2018-06-28T09:55:24.855] [DEBUG] logs/debug.log - date: 09/11/2014 from: Sam N to: Laura B narrative: Beers amount: 7.76NaN
+[2018-06-28T09:55:24.858] [DEBUG] logs/debug.log - date: 11/11/2014 from: Jon A to: Ben B narrative: Stationary Items amount: 0.73NaN
+[2018-06-28T09:55:24.878] [DEBUG] logs/debug.log - date: 14/11/2014 from: Sam N to: Dan W narrative: Spline Reticulation amount: 0.8NaN
+[2018-06-28T09:55:24.882] [DEBUG] logs/debug.log - date: 18/11/2014 from: Sam N to: Chris W narrative: Golf Bets amount: 6.44NaN
+[2018-06-28T09:55:24.886] [DEBUG] logs/debug.log - date: 19/11/2014 from: Laura B to: Jon A narrative: Coffee amount: 2.61NaN
+[2018-06-28T09:55:24.893] [DEBUG] logs/debug.log - date: 21/11/2014 from: Chris W to: Todd narrative: Lego Assistance amount: 1.42NaN
+[2018-06-28T09:55:24.896] [DEBUG] logs/debug.log - date: 23/11/2014 from: Todd to: Sarah T narrative: Beers amount: 2.24NaN
+[2018-06-28T09:55:24.905] [DEBUG] logs/debug.log - date: 25/11/2014 from: Chris W to: Rob S narrative: Pokemon Training amount: 5.76NaN
+[2018-06-28T09:55:24.908] [DEBUG] logs/debug.log - date: 28/11/2014 from: Tim L to: Dan W narrative: Beers amount: 8.76NaN
+[2018-06-28T09:55:24.912] [DEBUG] logs/debug.log - date: 02/12/2014 from: Jon A to: Sam N narrative: Pokemon Training amount: 11.04NaN
+[2018-06-28T09:55:24.920] [DEBUG] logs/debug.log - date: 06/12/2014 from: Gergana I to: Rob S narrative: Lego Assistance amount: 5.64NaN
+[2018-06-28T09:55:24.924] [DEBUG] logs/debug.log - date: 09/12/2014 from: Jon A to: Chris W narrative: Pokemon Training amount: 2.26NaN
+[2018-06-28T09:55:24.928] [DEBUG] logs/debug.log - date: 12/12/2014 from: Dan W to: Tim L narrative: Coffee amount: 4.5NaN
+[2018-06-28T09:55:24.938] [DEBUG] logs/debug.log - date: 14/12/2014 from: Gergana I to: Laura B narrative: Lunch amount: 4.26NaN
+[2018-06-28T09:55:24.941] [DEBUG] logs/debug.log - date: 16/12/2014 from: Todd to: Tim L narrative: Poker Winnings amount: 7.17NaN
+[2018-06-28T09:55:24.944] [DEBUG] logs/debug.log - date: 18/12/2014 from: Chris W to: Ben B narrative: Coffee amount: 11.17NaN
+[2018-06-28T09:55:24.954] [DEBUG] logs/debug.log - date: 20/12/2014 from: Rob S to: Gergana I narrative: Lunch amount: 1.07NaN
+[2018-06-28T09:55:24.957] [DEBUG] logs/debug.log - date: 21/12/2014 from: Gergana I to: Laura B narrative: Pokemon Training amount: 6.86NaN
+[2018-06-28T09:55:24.969] [DEBUG] logs/debug.log - date: 22/12/2014 from: Dan W to: Jon A narrative: Lunch amount: 3.66NaN
+[2018-06-28T09:55:24.972] [DEBUG] logs/debug.log - date: 25/12/2014 from: Todd to: Rob S narrative: Lego Assistance amount: 1.86NaN
+[2018-06-28T09:55:24.975] [DEBUG] logs/debug.log - date: 28/12/2014 from: Ben B to: Laura B narrative: Coffee amount: 1.44NaN
+[2018-06-28T09:55:24.984] [DEBUG] logs/debug.log - date: 29/12/2014 from: Ben B to: Sam N narrative: Coffee amount: 5.26NaN
+[2018-06-28T09:57:37.624] [DEBUG] logs/debug.log - date: 01/01/2014 from: Jon A to: Sarah T narrative: Pokemon Training amount: 7.8NaN
+[2018-06-28T09:57:37.629] [DEBUG] logs/debug.log - date: 04/01/2014 from: Stephen S to: Tim L narrative: Lunch amount: 4.37NaN
+[2018-06-28T09:57:37.632] [DEBUG] logs/debug.log - date: 08/01/2014 from: Laura B to: Stephen S narrative: Lunch amount: 5.09NaN
+[2018-06-28T09:57:37.633] [DEBUG] logs/debug.log - date: 11/01/2014 from: Rob S to: Ben B narrative: Misc Morale amount: 7.8NaN
+[2018-06-28T09:57:37.636] [DEBUG] logs/debug.log - date: 14/01/2014 from: Stephen S to: Ben B narrative: Beers amount: 7.36NaN
+[2018-06-28T09:57:37.643] [DEBUG] logs/debug.log - date: 15/01/2014 from: Sam N to: Stephen S narrative: Spline Reticulation amount: 11.63NaN
+[2018-06-28T09:57:37.646] [DEBUG] logs/debug.log - date: 19/01/2014 from: Stephen S to: Gergana I narrative: Beers amount: 5.88NaN
+[2018-06-28T09:57:37.648] [DEBUG] logs/debug.log - date: 20/01/2014 from: Sam N to: Stephen S narrative: Beers amount: 8.2NaN
+[2018-06-28T09:57:37.651] [DEBUG] logs/debug.log - date: 24/01/2014 from: Laura B to: Sam N narrative: Coffee amount: 11.68NaN
+[2018-06-28T09:57:37.676] [DEBUG] logs/debug.log - date: 28/01/2014 from: Todd to: Ben B narrative: Coffee amount: 6.81NaN
+[2018-06-28T09:57:37.680] [DEBUG] logs/debug.log - date: 31/01/2014 from: Sam N to: Gergana I narrative: Services Rendered amount: 6.29NaN
+[2018-06-28T09:57:37.682] [DEBUG] logs/debug.log - date: 01/02/2014 from: Todd to: Ben B narrative: Snooker Night amount: 6.87NaN
+[2018-06-28T09:57:37.684] [DEBUG] logs/debug.log - date: 04/02/2014 from: Chris W to: Ben B narrative: Spline Reticulation amount: 6.03NaN
+[2018-06-28T09:57:37.687] [DEBUG] logs/debug.log - date: 05/02/2014 from: Todd to: Rob S narrative: Sandbox Help amount: 5.62NaN
+[2018-06-28T09:57:37.693] [DEBUG] logs/debug.log - date: 07/02/2014 from: Jon A to: Sam N narrative: Beers amount: 1.65NaN
+[2018-06-28T09:57:37.696] [DEBUG] logs/debug.log - date: 10/02/2014 from: Dan W to: Sam N narrative: Lunch amount: 0.93NaN
+[2018-06-28T09:57:37.698] [DEBUG] logs/debug.log - date: 14/02/2014 from: Laura B to: Stephen S narrative: Snooker Night amount: 10.78NaN
+[2018-06-28T09:57:37.701] [DEBUG] logs/debug.log - date: 15/02/2014 from: Stephen S to: Gergana I narrative: Rails Consultancy amount: 6.91NaN
+[2018-06-28T09:57:37.709] [DEBUG] logs/debug.log - date: 18/02/2014 from: Sarah T to: Sam N narrative: Spline Reticulation amount: 1.6NaN
+[2018-06-28T09:57:37.711] [DEBUG] logs/debug.log - date: 22/02/2014 from: Tim L to: Sam N narrative: Pokemon Training amount: 5.2NaN
+[2018-06-28T09:57:37.714] [DEBUG] logs/debug.log - date: 25/02/2014 from: Todd to: Rob S narrative: Automated Testing Services amount: 7.1NaN
+[2018-06-28T09:57:37.716] [DEBUG] logs/debug.log - date: 27/02/2014 from: Ben B to: Rob S narrative: Snooker Night amount: 8.41NaN
+[2018-06-28T09:57:37.725] [DEBUG] logs/debug.log - date: 01/03/2014 from: Stephen S to: Jon A narrative: Coffee amount: 8.75NaN
+[2018-06-28T09:57:37.727] [DEBUG] logs/debug.log - date: 03/03/2014 from: Sam N to: Gergana I narrative: Lunch amount: 8.76NaN
+[2018-06-28T09:57:37.730] [DEBUG] logs/debug.log - date: 07/03/2014 from: Todd to: Laura B narrative: Pokemon Training amount: 9.39NaN
+[2018-06-28T09:57:37.732] [DEBUG] logs/debug.log - date: 10/03/2014 from: Todd to: Gergana I narrative: Sandbox Help amount: 1.62NaN
+[2018-06-28T09:57:37.738] [DEBUG] logs/debug.log - date: 14/03/2014 from: Sarah T to: Ben B narrative: Spline Reticulation amount: 2.1NaN
+[2018-06-28T09:57:37.741] [DEBUG] logs/debug.log - date: 17/03/2014 from: Sarah T to: Stephen S narrative: Beers amount: 0.66NaN
+[2018-06-28T09:57:37.744] [DEBUG] logs/debug.log - date: 20/03/2014 from: Tim L to: Sarah T narrative: Lego Assistance amount: 2.28NaN
+[2018-06-28T09:57:37.751] [DEBUG] logs/debug.log - date: 22/03/2014 from: Rob S to: Tim L narrative: Misc Morale amount: 1.95NaN
+[2018-06-28T09:57:37.754] [DEBUG] logs/debug.log - date: 23/03/2014 from: Jon A to: Sam N narrative: Lunch amount: 8.49NaN
+[2018-06-28T09:57:37.757] [DEBUG] logs/debug.log - date: 27/03/2014 from: Ben B to: Sam N narrative: Misc Morale amount: 10.76NaN
+[2018-06-28T09:57:37.759] [DEBUG] logs/debug.log - date: 29/03/2014 from: Todd to: Sarah T narrative: Git-Fu Rendered amount: 5.01NaN
+[2018-06-28T09:57:37.765] [DEBUG] logs/debug.log - date: 30/03/2014 from: Dan W to: Laura B narrative: Lunch amount: 4.77NaN
+[2018-06-28T09:57:37.767] [DEBUG] logs/debug.log - date: 01/04/2014 from: Sam N to: Laura B narrative: Lunch amount: 2.87NaN
+[2018-06-28T09:57:37.769] [DEBUG] logs/debug.log - date: 04/04/2014 from: Todd to: Ben B narrative: Rails Consultancy amount: 10.85NaN
+[2018-06-28T09:57:37.772] [DEBUG] logs/debug.log - date: 06/04/2014 from: Jon A to: Stephen S narrative: Beers amount: 8.91NaN
+[2018-06-28T09:57:37.778] [DEBUG] logs/debug.log - date: 08/04/2014 from: Stephen S to: Sam N narrative: Lego Assistance amount: 2.96NaN
+[2018-06-28T09:57:37.781] [DEBUG] logs/debug.log - date: 09/04/2014 from: Ben B to: Rob S narrative: Coffee amount: 1.31NaN
+[2018-06-28T09:57:37.784] [DEBUG] logs/debug.log - date: 10/04/2014 from: Todd to: Sarah T narrative: Snooker Night amount: 3.55NaN
+[2018-06-28T09:57:37.786] [DEBUG] logs/debug.log - date: 11/04/2014 from: Todd to: Laura B narrative: Coffee amount: 3.72NaN
+[2018-06-28T09:57:37.793] [DEBUG] logs/debug.log - date: 15/04/2014 from: Rob S to: Sam N narrative: Snooker Night amount: 8.86NaN
+[2018-06-28T09:57:37.795] [DEBUG] logs/debug.log - date: 19/04/2014 from: Ben B to: Gergana I narrative: Lunch amount: 7.61NaN
+[2018-06-28T09:57:37.797] [DEBUG] logs/debug.log - date: 20/04/2014 from: Dan W to: Gergana I narrative: Beers amount: 11.92NaN
+[2018-06-28T09:57:37.800] [DEBUG] logs/debug.log - date: 23/04/2014 from: Stephen S to: Rob S narrative: Poker Winnings amount: 3.41NaN
+[2018-06-28T09:57:37.816] [DEBUG] logs/debug.log - date: 24/04/2014 from: Tim L to: Dan W narrative: Misc Morale amount: 6.38NaN
+[2018-06-28T09:57:37.820] [DEBUG] logs/debug.log - date: 26/04/2014 from: Todd to: Tim L narrative: Lunch amount: 1.46NaN
+[2018-06-28T09:57:37.824] [DEBUG] logs/debug.log - date: 30/04/2014 from: Laura B to: Ben B narrative: Golf Bets amount: 5.77NaN
+[2018-06-28T09:57:37.826] [DEBUG] logs/debug.log - date: 03/05/2014 from: Jon A to: Gergana I narrative: Rails Consultancy amount: 10.51NaN
+[2018-06-28T09:57:37.828] [DEBUG] logs/debug.log - date: 05/05/2014 from: Dan W to: Sarah T narrative: Stationary Items amount: 5.06NaN
+[2018-06-28T09:57:37.843] [DEBUG] logs/debug.log - date: 06/05/2014 from: Tim L to: Chris W narrative: Audit and Other Financial Services amount: 7.45NaN
+[2018-06-28T09:57:37.846] [DEBUG] logs/debug.log - date: 10/05/2014 from: Laura B to: Todd narrative: Lego Assistance amount: 10.63NaN
+[2018-06-28T09:57:37.853] [DEBUG] logs/debug.log - date: 13/05/2014 from: Tim L to: Ben B narrative: Coffee amount: 5.89NaN
+[2018-06-28T09:57:37.856] [DEBUG] logs/debug.log - date: 17/05/2014 from: Rob S to: Sarah T narrative: Misc Morale amount: 3.61NaN
+[2018-06-28T09:57:37.858] [DEBUG] logs/debug.log - date: 19/05/2014 from: Jon A to: Todd narrative: Beers amount: 9.04NaN
+[2018-06-28T09:57:37.860] [DEBUG] logs/debug.log - date: 22/05/2014 from: Tim L to: Todd narrative: Coffee amount: 3.81NaN
+[2018-06-28T09:57:37.866] [DEBUG] logs/debug.log - date: 24/05/2014 from: Sam N to: Tim L narrative: Sandcastle Help amount: 8.8NaN
+[2018-06-28T09:57:37.870] [DEBUG] logs/debug.log - date: 26/05/2014 from: Ben B to: Laura B narrative: Lunch amount: 7.36NaN
+[2018-06-28T09:57:37.872] [DEBUG] logs/debug.log - date: 30/05/2014 from: Laura B to: Todd narrative: Lunch amount: 7.01NaN
+[2018-06-28T09:57:37.881] [DEBUG] logs/debug.log - date: 31/05/2014 from: Tim L to: Ben B narrative: Coffee amount: 8.23NaN
+[2018-06-28T09:57:37.883] [DEBUG] logs/debug.log - date: 01/06/2014 from: Tim L to: Stephen S narrative: Rails Consultancy amount: 5.2NaN
+[2018-06-28T09:57:37.886] [DEBUG] logs/debug.log - date: 05/06/2014 from: Dan W to: Gergana I narrative: Spline Reticulation amount: 5.61NaN
+[2018-06-28T09:57:37.889] [DEBUG] logs/debug.log - date: 09/06/2014 from: Sarah T to: Stephen S narrative: Lego Assistance amount: 11.5NaN
+[2018-06-28T09:57:37.897] [DEBUG] logs/debug.log - date: 11/06/2014 from: Stephen S to: Sam N narrative: Lego Assistance amount: 5.14NaN
+[2018-06-28T09:57:37.899] [DEBUG] logs/debug.log - date: 14/06/2014 from: Todd to: Sam N narrative: Lego Assistance amount: 6.3NaN
+[2018-06-28T09:57:37.902] [DEBUG] logs/debug.log - date: 16/06/2014 from: Stephen S to: Dan W narrative: Lunch amount: 4.79NaN
+[2018-06-28T09:57:37.905] [DEBUG] logs/debug.log - date: 20/06/2014 from: Ben B to: Chris W narrative: Rails Consultancy amount: 1.34NaN
+[2018-06-28T09:57:37.911] [DEBUG] logs/debug.log - date: 22/06/2014 from: Tim L to: Stephen S narrative: Coffee amount: 6.44NaN
+[2018-06-28T09:57:37.913] [DEBUG] logs/debug.log - date: 23/06/2014 from: Stephen S to: Ben B narrative: Spline Reticulation amount: 11.85NaN
+[2018-06-28T09:57:37.915] [DEBUG] logs/debug.log - date: 26/06/2014 from: Chris W to: Todd narrative: Beers amount: 9.81NaN
+[2018-06-28T09:57:37.918] [DEBUG] logs/debug.log - date: 28/06/2014 from: Sarah T to: Gergana I narrative: Beers amount: 4.03NaN
+[2018-06-28T09:57:37.937] [DEBUG] logs/debug.log - date: 29/06/2014 from: Chris W to: Laura B narrative: Jenkins Fees amount: 8.7NaN
+[2018-06-28T09:57:37.940] [DEBUG] logs/debug.log - date: 01/07/2014 from: Rob S to: Jon A narrative: Lunch amount: 2.67NaN
+[2018-06-28T09:57:37.942] [DEBUG] logs/debug.log - date: 02/07/2014 from: Stephen S to: Dan W narrative: Lego Assistance amount: 2.9NaN
+[2018-06-28T09:57:37.944] [DEBUG] logs/debug.log - date: 06/07/2014 from: Sam N to: Jon A narrative: Beers amount: 4.37NaN
+[2018-06-28T09:57:37.947] [DEBUG] logs/debug.log - date: 09/07/2014 from: Dan W to: Tim L narrative: Misc Morale amount: 5.45NaN
+[2018-06-28T09:57:37.972] [DEBUG] logs/debug.log - date: 11/07/2014 from: Dan W to: Sarah T narrative: Misc Morale amount: 5.05NaN
+[2018-06-28T09:57:37.977] [DEBUG] logs/debug.log - date: 14/07/2014 from: Gergana I to: Sam N narrative: Coffee amount: 10.92NaN
+[2018-06-28T09:57:37.979] [DEBUG] logs/debug.log - date: 16/07/2014 from: Jon A to: Dan W narrative: Coffee amount: 11.75NaN
+[2018-06-28T09:57:37.981] [DEBUG] logs/debug.log - date: 18/07/2014 from: Gergana I to: Stephen S narrative: Snooker Night amount: 11.57NaN
+[2018-06-28T09:57:37.983] [DEBUG] logs/debug.log - date: 22/07/2014 from: Sarah T to: Ben B narrative: Coffee amount: 11.56NaN
+[2018-06-28T09:57:38.009] [DEBUG] logs/debug.log - date: 23/07/2014 from: Rob S to: Tim L narrative: Lego Assistance amount: 11.47NaN
+[2018-06-28T09:57:38.012] [DEBUG] logs/debug.log - date: 25/07/2014 from: Laura B to: Stephen S narrative: Poker Winnings amount: 9.42NaN
+[2018-06-28T09:57:38.015] [DEBUG] logs/debug.log - date: 28/07/2014 from: Gergana I to: Chris W narrative: Pokemon Training amount: 2.33NaN
+[2018-06-28T09:57:38.017] [DEBUG] logs/debug.log - date: 29/07/2014 from: Jon A to: Sam N narrative: Lunch amount: 5.31NaN
+[2018-06-28T09:57:38.019] [DEBUG] logs/debug.log - date: 01/08/2014 from: Sam N to: Gergana I narrative: Coffee amount: 2.72NaN
+[2018-06-28T09:57:38.028] [DEBUG] logs/debug.log - date: 03/08/2014 from: Laura B to: Rob S narrative: Rails Consultancy amount: 6.26NaN
+[2018-06-28T09:57:38.031] [DEBUG] logs/debug.log - date: 04/08/2014 from: Gergana I to: Ben B narrative: Coffee amount: 7.81NaN
+[2018-06-28T09:57:38.034] [DEBUG] logs/debug.log - date: 08/08/2014 from: Tim L to: Laura B narrative: Coffee amount: 3.76NaN
+[2018-06-28T09:57:38.037] [DEBUG] logs/debug.log - date: 11/08/2014 from: Stephen S to: Rob S narrative: Lunch amount: 8.91NaN
+[2018-06-28T09:57:38.043] [DEBUG] logs/debug.log - date: 13/08/2014 from: Sarah T to: Todd narrative: Beers amount: 8.25NaN
+[2018-06-28T09:57:38.045] [DEBUG] logs/debug.log - date: 14/08/2014 from: Chris W to: Tim L narrative: Misc Morale amount: 6.59NaN
+[2018-06-28T09:57:38.048] [DEBUG] logs/debug.log - date: 18/08/2014 from: Jon A to: Tim L narrative: Lego Assistance amount: 7.22NaN
+[2018-06-28T09:57:38.050] [DEBUG] logs/debug.log - date: 21/08/2014 from: Ben B to: Gergana I narrative: Rails Consultancy amount: 9.25NaN
+[2018-06-28T09:57:38.067] [DEBUG] logs/debug.log - date: 22/08/2014 from: Chris W to: Sam N narrative: Golf Bets amount: 1.9NaN
+[2018-06-28T09:57:38.071] [DEBUG] logs/debug.log - date: 23/08/2014 from: Ben B to: Stephen S narrative: Lunch amount: 5.02NaN
+[2018-06-28T09:57:38.074] [DEBUG] logs/debug.log - date: 24/08/2014 from: Laura B to: Stephen S narrative: Audit and Other Financial Services amount: 7.45NaN
+[2018-06-28T09:57:38.077] [DEBUG] logs/debug.log - date: 25/08/2014 from: Gergana I to: Stephen S narrative: Beers amount: 8.57NaN
+[2018-06-28T09:57:38.079] [DEBUG] logs/debug.log - date: 28/08/2014 from: Laura B to: Tim L narrative: Beers amount: 0.57NaN
+[2018-06-28T09:57:38.098] [DEBUG] logs/debug.log - date: 29/08/2014 from: Ben B to: Chris W narrative: Lunch amount: 1.66NaN
+[2018-06-28T09:57:38.102] [DEBUG] logs/debug.log - date: 01/09/2014 from: Sam N to: Gergana I narrative: Pokemon Training amount: 9.41NaN
+[2018-06-28T09:57:38.105] [DEBUG] logs/debug.log - date: 03/09/2014 from: Jon A to: Tim L narrative: Lunch amount: 8.13NaN
+[2018-06-28T09:57:38.108] [DEBUG] logs/debug.log - date: 06/09/2014 from: Dan W to: Todd narrative: Lunch amount: 1.8NaN
+[2018-06-28T09:57:38.115] [DEBUG] logs/debug.log - date: 09/09/2014 from: Todd to: Dan W narrative: Audit and Other Financial Services amount: 3.93NaN
+[2018-06-28T09:57:38.118] [DEBUG] logs/debug.log - date: 12/09/2014 from: Laura B to: Jon A narrative: Git-Fu Rendered amount: 3.11NaN
+[2018-06-28T09:57:38.121] [DEBUG] logs/debug.log - date: 16/09/2014 from: Gergana I to: Rob S narrative: Golf Bets amount: 1.28NaN
+[2018-06-28T09:57:38.130] [DEBUG] logs/debug.log - date: 20/09/2014 from: Jon A to: Ben B narrative: Beers amount: 3.71NaN
+[2018-06-28T09:57:38.133] [DEBUG] logs/debug.log - date: 24/09/2014 from: Jon A to: Laura B narrative: Golf Bets amount: 5.61NaN
+[2018-06-28T09:57:38.134] [DEBUG] logs/debug.log - date: 27/09/2014 from: Sarah T to: Dan W narrative: Beers amount: 11.6NaN
+[2018-06-28T09:57:38.137] [DEBUG] logs/debug.log - date: 29/09/2014 from: Ben B to: Tim L narrative: Misc Morale amount: 3.43NaN
+[2018-06-28T09:57:38.144] [DEBUG] logs/debug.log - date: 30/09/2014 from: Jon A to: Dan W narrative: Sandbox Help amount: 9.26NaN
+[2018-06-28T09:57:38.146] [DEBUG] logs/debug.log - date: 04/10/2014 from: Ben B to: Todd narrative: Lunch amount: 11.28NaN
+[2018-06-28T09:57:38.148] [DEBUG] logs/debug.log - date: 06/10/2014 from: Sarah T to: Tim L narrative: Spline Reticulation amount: 7.44NaN
+[2018-06-28T09:57:38.150] [DEBUG] logs/debug.log - date: 10/10/2014 from: Ben B to: Gergana I narrative: Beers amount: 3.98NaN
+[2018-06-28T09:57:38.157] [DEBUG] logs/debug.log - date: 14/10/2014 from: Ben B to: Gergana I narrative: Coffee amount: 11.65NaN
+[2018-06-28T09:57:38.159] [DEBUG] logs/debug.log - date: 18/10/2014 from: Gergana I to: Rob S narrative: Jenkins Fees amount: 5.47NaN
+[2018-06-28T09:57:38.161] [DEBUG] logs/debug.log - date: 19/10/2014 from: Dan W to: Sam N narrative: Automated Testing Services amount: 8NaN
+[2018-06-28T09:57:38.164] [DEBUG] logs/debug.log - date: 22/10/2014 from: Dan W to: Sam N narrative: Beers amount: 0.55NaN
+[2018-06-28T09:57:38.181] [DEBUG] logs/debug.log - date: 23/10/2014 from: Jon A to: Dan W narrative: Lunch amount: 2.37NaN
+[2018-06-28T09:57:38.186] [DEBUG] logs/debug.log - date: 25/10/2014 from: Laura B to: Todd narrative: Beers amount: 8.42NaN
+[2018-06-28T09:57:38.188] [DEBUG] logs/debug.log - date: 28/10/2014 from: Gergana I to: Dan W narrative: Misc Morale amount: 5.04NaN
+[2018-06-28T09:57:38.191] [DEBUG] logs/debug.log - date: 29/10/2014 from: Dan W to: Ben B narrative: Rails Consultancy amount: 5.87NaN
+[2018-06-28T09:57:38.199] [DEBUG] logs/debug.log - date: 30/10/2014 from: Chris W to: Gergana I narrative: Jenkins Fees amount: 8.9NaN
+[2018-06-28T09:57:38.201] [DEBUG] logs/debug.log - date: 02/11/2014 from: Sarah T to: Tim L narrative: Lego Assistance amount: 4.67NaN
+[2018-06-28T09:57:38.204] [DEBUG] logs/debug.log - date: 04/11/2014 from: Chris W to: Rob S narrative: Sandbox Help amount: 6.15NaN
+[2018-06-28T09:57:38.211] [DEBUG] logs/debug.log - date: 07/11/2014 from: Rob S to: Ben B narrative: Rails Consultancy amount: 3NaN
+[2018-06-28T09:57:38.214] [DEBUG] logs/debug.log - date: 09/11/2014 from: Sam N to: Laura B narrative: Beers amount: 7.76NaN
+[2018-06-28T09:57:38.216] [DEBUG] logs/debug.log - date: 11/11/2014 from: Jon A to: Ben B narrative: Stationary Items amount: 0.73NaN
+[2018-06-28T09:57:38.219] [DEBUG] logs/debug.log - date: 14/11/2014 from: Sam N to: Dan W narrative: Spline Reticulation amount: 0.8NaN
+[2018-06-28T09:57:38.225] [DEBUG] logs/debug.log - date: 18/11/2014 from: Sam N to: Chris W narrative: Golf Bets amount: 6.44NaN
+[2018-06-28T09:57:38.227] [DEBUG] logs/debug.log - date: 19/11/2014 from: Laura B to: Jon A narrative: Coffee amount: 2.61NaN
+[2018-06-28T09:57:38.229] [DEBUG] logs/debug.log - date: 21/11/2014 from: Chris W to: Todd narrative: Lego Assistance amount: 1.42NaN
+[2018-06-28T09:57:38.231] [DEBUG] logs/debug.log - date: 23/11/2014 from: Todd to: Sarah T narrative: Beers amount: 2.24NaN
+[2018-06-28T09:57:38.233] [DEBUG] logs/debug.log - date: 25/11/2014 from: Chris W to: Rob S narrative: Pokemon Training amount: 5.76NaN
+[2018-06-28T09:57:38.241] [DEBUG] logs/debug.log - date: 28/11/2014 from: Tim L to: Dan W narrative: Beers amount: 8.76NaN
+[2018-06-28T09:57:38.244] [DEBUG] logs/debug.log - date: 02/12/2014 from: Jon A to: Sam N narrative: Pokemon Training amount: 11.04NaN
+[2018-06-28T09:57:38.246] [DEBUG] logs/debug.log - date: 06/12/2014 from: Gergana I to: Rob S narrative: Lego Assistance amount: 5.64NaN
+[2018-06-28T09:57:38.248] [DEBUG] logs/debug.log - date: 09/12/2014 from: Jon A to: Chris W narrative: Pokemon Training amount: 2.26NaN
+[2018-06-28T09:57:38.266] [DEBUG] logs/debug.log - date: 12/12/2014 from: Dan W to: Tim L narrative: Coffee amount: 4.5NaN
+[2018-06-28T09:57:38.270] [DEBUG] logs/debug.log - date: 14/12/2014 from: Gergana I to: Laura B narrative: Lunch amount: 4.26NaN
+[2018-06-28T09:57:38.272] [DEBUG] logs/debug.log - date: 16/12/2014 from: Todd to: Tim L narrative: Poker Winnings amount: 7.17NaN
+[2018-06-28T09:57:38.275] [DEBUG] logs/debug.log - date: 18/12/2014 from: Chris W to: Ben B narrative: Coffee amount: 11.17NaN
+[2018-06-28T09:57:38.278] [DEBUG] logs/debug.log - date: 20/12/2014 from: Rob S to: Gergana I narrative: Lunch amount: 1.07NaN
+[2018-06-28T09:57:38.284] [DEBUG] logs/debug.log - date: 21/12/2014 from: Gergana I to: Laura B narrative: Pokemon Training amount: 6.86NaN
+[2018-06-28T09:57:38.287] [DEBUG] logs/debug.log - date: 22/12/2014 from: Dan W to: Jon A narrative: Lunch amount: 3.66NaN
+[2018-06-28T09:57:38.290] [DEBUG] logs/debug.log - date: 25/12/2014 from: Todd to: Rob S narrative: Lego Assistance amount: 1.86NaN
+[2018-06-28T09:57:38.300] [DEBUG] logs/debug.log - date: 28/12/2014 from: Ben B to: Laura B narrative: Coffee amount: 1.44NaN
+[2018-06-28T09:57:38.302] [DEBUG] logs/debug.log - date: 29/12/2014 from: Ben B to: Sam N narrative: Coffee amount: 5.26NaN
