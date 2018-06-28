@@ -356,3 +356,18 @@
 [2018-06-28T09:57:38.290] [DEBUG] logs/debug.log - date: 25/12/2014 from: Todd to: Rob S narrative: Lego Assistance amount: 1.86NaN
 [2018-06-28T09:57:38.300] [DEBUG] logs/debug.log - date: 28/12/2014 from: Ben B to: Laura B narrative: Coffee amount: 1.44NaN
 [2018-06-28T09:57:38.302] [DEBUG] logs/debug.log - date: 29/12/2014 from: Ben B to: Sam N narrative: Coffee amount: 5.26NaN
+[2018-06-28T16:08:51.908] [DEBUG] logs/debug.log - date: 01/03/2015 from: Ben B to: Sam N narrative: Lunch amount: NaN amount NOT valid
+[2018-06-28T16:09:53.952] [DEBUG] logs/debug.log - date: 01/03/2015 from: Ben B to: Sam N narrative: Lunch amount: NaN amount NOT valid
+[2018-06-28T16:10:57.416] [DEBUG] logs/debug.log - date: 01/03/2015 from: Ben B to: Sam N narrative: Lunch amount: NaN amount NOT valid
+[2018-06-28T16:11:34.526] [DEBUG] logs/debug.log - date: 01/03/2015 from: Ben B to: Sam N narrative: Lunch amount: NaN amount NOT valid
+[2018-06-28T16:11:43.802] [DEBUG] logs/debug.log - date: 01/03/2015 from: Ben B to: Sam N narrative: Lunch amount: NaN amount NOT valid
+[2018-06-28T16:14:41.866] [DEBUG] logs/debug.log - date: 01/03/2015 from: Ben B to: Sam N narrative: Lunch amount: NaN amount NOT valid
+[2018-06-28T16:14:41.870] [DEBUG] logs/debug.log - date: Invalid date from: Sarah T to: Dan W narrative: Beers amount: 5.42 Date NOT valid
+[2018-06-28T16:15:49.863] [DEBUG] logs/debug.log - date: 01/03/2015 from: Ben B to: Sam N narrative: Lunch amount: NaN amount NOT valid
+[2018-06-28T16:15:49.871] [DEBUG] logs/debug.log - date: Invalid date from: Sarah T to: Dan W narrative: Beers amount: 5.42 Date NOT valid
+[2018-06-28T16:16:58.128] [DEBUG] logs/debug.log - date: 01/03/2015 from: Ben B to: Sam N narrative: Lunch amount: NaN amount NOT valid
+[2018-06-28T16:16:58.136] [DEBUG] logs/debug.log - date: Invalid date from: Sarah T to: Dan W narrative: Beers amount: 5.42 Date NOT valid
+[2018-06-28T16:19:48.783] [DEBUG] logs/debug.log - date: 01/03/2015 from: Ben B to: Sam N narrative: Lunch amount: NaN amount NOT valid
+[2018-06-28T16:19:48.791] [DEBUG] logs/debug.log - date: Invalid date from: Sarah T to: Dan W narrative: Beers amount: 5.42 Date NOT valid
+[2018-06-28T16:25:11.304] [DEBUG] logs/debug.log - date: 01/03/2015 from: Ben B to: Sam N narrative: Lunch amount: NaN amount NOT valid
+[2018-06-28T16:25:11.313] [DEBUG] logs/debug.log - date: Invalid date from: Sarah T to: Dan W narrative: Beers amount: 5.42 Date NOT valid
