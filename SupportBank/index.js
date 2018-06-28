@@ -1,7 +1,5 @@
 
 var readlineSync = require('readline-sync');
-var fs = require('fs');
-var moment = require('moment');
 var data= require('./dataInput');
 var userAcounts=require('./userAcounts');
 
@@ -25,18 +23,27 @@ function ListAllAccount(name){
 
 }
 
+function processFile(fileName,Transactions){
+    Transactions=data.makeTransactions(fileName,Transactions);
+    return personMap=userAcounts.makeAccounts(Transactions);
+}
+
 
 //main body
+
+var Transactions=Array();
+
 console.log('pleae enter the file you want us to read(remeber to include the exstention)');
 const fileName= readlineSync.prompt()
-var Transactions=Array();
+
 personMap=processFile(fileName, Transactions);
 
 do{
     console.log('would you like to upload anouther file, list all or look for a name (for list all input listAll,importFile filename else just type name)\n\ type N to quit')
+    
     const response= readlineSync.prompt()
     var quit=false
-    console.log(response.slice(0,12))
+
     if(response==='listAll'){
         ListAll();
     }else if(response==='N'){
@@ -49,7 +56,3 @@ do{
     }
 }while(quit===false);
 
-function processFile(fileName,Transactions){
-    Transactions=data.makeTransactions(fileName,Transactions);
-    return personMap=userAcounts.makeAccounts(Transactions);
-}
