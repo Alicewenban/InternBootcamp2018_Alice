@@ -15,6 +15,7 @@ function getBussesWithStopID(busStopId){
     return promise;
 }
 
+
 function getLongLatWithPostCode(postcode){
     var promise= new Promise(function(resolve,reject){
         request.get('https://api.postcodes.io/postcodes/'+postcode, { json: true }, (err, res, body) => {
@@ -45,4 +46,4 @@ function getClostStopsWithLongLat(long,lat){
 
 
 
-module.exports={getBussesWithStopID:getBussesWithStopID,getLongLatWithPostCode:getLongLatWithPostCode,getClostStopsWithLongLat:getClostStopsWithLongLat}
+module.exports={getBussesWithStopID:getBussesWithStopID,getLongLatWithPostCode:getLongLatWithPostCode,getClostStopsWithLongLat:getClostStopsWithLongLat,}

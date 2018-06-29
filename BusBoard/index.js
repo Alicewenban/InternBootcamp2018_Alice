@@ -1,5 +1,4 @@
 var processedApi= require('./processAPI');
-const readline = require('readline-sync');
 const express = require('express');
 
 const app = express();
@@ -11,4 +10,4 @@ app.get('/departureBoards/:code', (req, res) => {
     }).catch();
 });
 
-app.listen(3000, () => console.log('Example app listening on port 3000!'));
+app.listen(3000, () => console.log('running'));
