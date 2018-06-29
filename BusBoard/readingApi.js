@@ -9,9 +9,41 @@ function getBussesWithStopID(busStopId){
                 reject(err);
             } else {
                 resolve(body);
+                
             }
         });  
     });
     return promise;
 }
-module.exports={getBussesWithStopID:getBussesWithStopID}
+
+function getLongLatWithPostCode(postcode){
+    var promise= new Promise(function(resolve,reject){
+        request.get('https://api.postcodes.io/postcodes/'+postcode, { json: true }, (err, res, body) => {
+            if(err) {
+                reject(err);
+            } else {
+                resolve(body);
+                
+            }
+        });  
+    });
+   return promise;
+    
+}
+function getClostStopsWithLongLat(long,lat){
+    var promise= new Promise(function(resolve,reject){
+        request.get( 'https://api.tfl.gov.uk/StopPoint?stopTypes=NaptanPublicBusCoachTram&radius=500&useStopPointHierarchy=true&modes=bus&returnLines=true&lat='+lat+'&lon='+long, { json: true }, (err, res, body) => {
+            if(err) {
+                reject(err);
+            } else {
+                resolve(body);
+                
+            }
+        });  
+    });
+    return promise;
+}
+
+
+
+module.exports={getBussesWithStopID:getBussesWithStopID,getLongLatWithPostCode:getLongLatWithPostCode,getClostStopsWithLongLat:getClostStopsWithLongLat}
