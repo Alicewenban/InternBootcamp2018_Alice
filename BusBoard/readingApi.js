@@ -44,6 +44,18 @@ function getClostStopsWithLongLat(long,lat){
     return promise;
 }
 
+function getBikeStops(){
+    var promise= new Promise(function(resolve,reject){
+        request.get( 'https://api.tfl.gov.uk/BikePoint', { json: true }, (err, res, body) => {
+            if(err) {
+                reject(err);
+            } else {
+                resolve(body);   
+            }
+        });  
+    });
+    return promise;
+}
 
 
-module.exports={getBussesWithStopID:getBussesWithStopID,getLongLatWithPostCode:getLongLatWithPostCode,getClostStopsWithLongLat:getClostStopsWithLongLat,}
+module.exports={getBikeStops:getBikeStops,getBussesWithStopID:getBussesWithStopID,getLongLatWithPostCode:getLongLatWithPostCode,getClostStopsWithLongLat:getClostStopsWithLongLat,}
