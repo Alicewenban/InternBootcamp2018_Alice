@@ -34,3 +34,8 @@
 .icon-color {
     color: red;
 }
+
+#map {
+    height: 400px;
+    width:400px;
+}
