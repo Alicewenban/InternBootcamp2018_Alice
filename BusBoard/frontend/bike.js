@@ -1,4 +1,5 @@
-  var bikes;
+//this has to be globa due to werid google maps stuff
+ var bikes;
   function loadMap() {
     if (document.querySelectorAll('#map').length > 0)
     {
