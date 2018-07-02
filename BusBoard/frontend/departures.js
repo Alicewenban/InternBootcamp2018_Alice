@@ -20,7 +20,12 @@ function submit(){
         buses.forEach(bus =>{
             let min=Math.round(bus.timeToStation/60);
             let niceBusString='Bus Stop: '+bus.stationName+' Bus Name: '+bus.routeName+' Destination: '+bus.destination+' Minuits until: '+min;
-            var li = document.createElement("li");
+            let li = document.createElement("li");
+            let icon = document.createElement("i");
+            let att = document.createAttribute("class");
+            att.value = "fa-li fa fa-bus-alt icon-color";
+            icon.setAttributeNode(att);
+            li.appendChild(icon);
             li.appendChild(document.createTextNode(niceBusString));
             list.appendChild(li);
         });

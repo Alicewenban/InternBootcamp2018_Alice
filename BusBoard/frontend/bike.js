@@ -30,7 +30,12 @@ function submit(){
 
         bikes.forEach(bike =>{
             let niceBikeString='Bike point: '+bike.stopName;
-            var li = document.createElement("li");
+            let li = document.createElement("li");
+            let icon = document.createElement("i");
+            let att = document.createAttribute("class");
+            att.value = "fa-li fa fa-bicycle icon-color";
+            icon.setAttributeNode(att);
+            li.appendChild(icon);
             li.appendChild(document.createTextNode(niceBikeString));
             list.appendChild(li);
         });

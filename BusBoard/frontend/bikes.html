@@ -10,11 +10,20 @@
             width:400px;
         }
     </style>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <script src="bike.js"></script>
+    <script src="reload.js"></script>
   </head>
   <body>
+    <div class = "nav-bar">
+      <ul>
+        <li><a href="index.html">BusBoard</a></li>
+        <li><a class="active" href="bikes.html">BikeBoard</a></li>
+      </ul>
+    </div>
     <h1>bikeBoard</h1>
-    <form action="javascript:submit()" onsubmit="submit()">
+    <form action="javascript:requestData()" onsubmit="requestData()">
         Postcode:<br>
         <input type="text" name="postcode" id = "postcode">
         <input type="submit" value="Submit">
@@ -23,8 +32,9 @@
     <div id="results">
         <h2>Results</h2>
         <h3>Your five Closes bike stops are :</h3>
-        <ul id = bikeList></ul>
+        <ul id = "bikeList" class="fa-ul list"></ul>
         <div id="map"></div>
+        
     </div>
     
 
