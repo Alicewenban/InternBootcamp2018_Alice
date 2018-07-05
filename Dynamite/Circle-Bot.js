@@ -1,53 +1,53 @@
-var dynomiteUsed=0;
-var order = [0,1,2,3,4];
+var dynomiteUsed = 0;
+var order = [0, 1, 2, 3, 4];
 shuffleArray(order);
-var cycleSize=5;
+var cycleSize = 5;
 
 class Bot {
-    
+
     makeMove(gamestate) {
-        let gameNum =gamestate.rounds.length;      
-        let key = gameNum%cycleSize;
-        let moveIdea=numToBot(order[key]);
-        if(moveIdea==='D'){
+        let gameNum = gamestate.rounds.length;
+        let key = gameNum % cycleSize;
+        let moveIdea = numToBot(order[key]);
+        if (moveIdea === 'D') {
             dynomiteUsed++;
-            if(dynomiteUsed>=100){
+            if (dynomiteUsed >= 100) {
                 //remove 4 from order and reduce cylce
-                cycleSize=4;
-                order.splice( order.indexOf(4), 1 );
+                cycleSize = 4;
+                order.splice(order.indexOf(4), 1);
             }
         }
-            return moveIdea;
-        }
-        
+        return moveIdea;
     }
 
-function randomNum(){   
-    let max =4;
-    if(dynomiteUsed >= 100){
-        max=3;
-    }
-
-   return Math.round((Math.random() * max));
 }
 
-function numToBot(num){
-    switch(num){
+function randomNum() {
+    let max = 4;
+    if (dynomiteUsed >= 100) {
+        max = 3;
+    }
+
+    return Math.round((Math.random() * max));
+}
+
+function numToBot(num) {
+    switch (num) {
         case 0:
-            console.log('R');
+            // console.log('R');
             return 'R'
         case 1:
-            console.log('P');
+            // console.log('P');
             return 'P'
         case 2:
-            console.log('S');
+            //console.log('S');
             return 'S'
         case 3:
-            console.log('W');
+            //console.log('W');
             return 'W'
         case 4:
             dynomiteUsed++;
-            console.log('D')
+            //console.log('D')
             return 'D'
     }
 }
