@@ -8,18 +8,24 @@ class Bot {
         this.inUse = ['R', 'P', 'S', 'D'];
     }
     makeMove(gamestate) {
+        if (draw(gamestate) && this.myDynoCount < 100) {
+            this.myDynoCount++;
+            if (this.myDynoCount === 100) { removeDynomite(this.inUse); }
+            return 'D'
+        }
         let gameNum = getGameNum(gamestate);
         let oppMoves = getOppMoves(gamestate);
-        if ((gameNum % 100 === 0) && (gameNum > 0)) {
-            //change move;
-            let cycle = detectCycle(oppMoves);
-            if (cycle) {
-                console.log("cycle")
-                currentStrat = cycle;
-            } else if (detectMimic(gamestate)) {
-                currentStrat = 'repFreeRandom';
-            } else {
-                currentStrat = newStrat(oppMoves);
+
+        if ((gameNum % 100 === 0) && (gameNum > 100)) {
+            if (currentStrat != 'Mark') {
+                //change move;
+                if (detectMimic(gamestate)) {
+                    currentStrat = 'repFreeRandom';
+                } else {
+                    //let testSection = oppMoves.slice(gameNum - 100, gameNum);
+                    currentStrat = newStrat(oppMoves);
+                }
+                console.log(currentStrat)
             }
         }
         var move = returnMoveFromStrat(currentStrat, oppMoves, this, gameNum);
@@ -47,6 +53,11 @@ function getMyMoves(gamestate) {
         myMoves.push(round.p1);
     });
     return myMoves;
+}
+function draw(gamestate) {
+    let m = getMyMoves(gamestate);
+    let o = getOppMoves(gamestate);
+    if (m[m.length - 1] === o[o.length - 1]) { return true }
 }
 
 //edit list functions
@@ -93,7 +104,7 @@ function perfomRandom(oppMoves, bot, gameNum) {
     checkDynoRemove(bot, bot.inUse[0], oppMoves[gameNum - 1])
     return bot.inUse[0];
 }
-
+/*
 function perfomCounterCycle(oppMoves, bot, gameNum, cycle) {
     var arrayofmoves = cycle.split(',');
     var last = oppMoves[oppMoves.length - 1];
@@ -101,7 +112,7 @@ function perfomCounterCycle(oppMoves, bot, gameNum, cycle) {
     next = next < cycle || 0;
     return beat(arrayofmoves[next]);
 }
-
+*/
 function performRepFreeRandom(oppMoves, bot, gameNum) {
     let preMove = bot.inUse[0];
     bot.inUse.shift();
@@ -129,9 +140,9 @@ function evualateSrat(oppMoves, stratiges) {
 }
 
 function returnMoveFromStrat(stratiges, oppMoves, bot, gameNum) {
-    if (stratiges.startsWith('Cycle')) {
-        return perfomCounterCycle(oppMoves, bot, gameNum, stratiges.slice(5));
-    }
+    // if (stratiges.startsWith('Cycle')) {
+    //   return perfomCounterCycle(oppMoves, bot, gameNum, stratiges.slice(5));
+    //}
     switch (stratiges) {
         case 'Random':
             return perfomRandom(oppMoves, bot, gameNum);
@@ -139,13 +150,16 @@ function returnMoveFromStrat(stratiges, oppMoves, bot, gameNum) {
             return perfomMimic(oppMoves, bot, gameNum);
         case 'repFreeRandom':
             return performRepFreeRandom(oppMoves, bot, gameNum);
+        case 'Mark':
+            return performMark(oppMoves, bot, gameNum);
     }
 }
 function newStrat(oppMoves) {
-    let strats = ['Random', 'Mimic']
+    let strats = ['Random', 'Mimic', 'Mark']
     strats.sort((a, b) => {
         return evualateSrat(oppMoves, b) - evualateSrat(oppMoves, a);
     })
+    console.log(strats);
     return strats[0];
 }
 
@@ -226,7 +240,7 @@ function detectMimic(gamestate) {
     }
     return false;
 }
-
+/*
 function detectCycle(oppMoves) {
     const cycle = 5;
     for (let i = 0; i < (oppMoves.length - cycle * 2); i += (cycle)) {
@@ -236,5 +250,58 @@ function detectCycle(oppMoves) {
     }
     return false;
 }
+*/
 
+function performMark(oppMoves, bot, gameNum) {
+    let transitionMatrix = Array(5);
+    let apearenceCount = Array(5).fill(0);
+    if (oppMoves.length < 3) { return 'D' }
+    for (let i = 1; i < oppMoves.length; i++) {
+        transitionMatrix[moveToPos(oppMoves[i - 1])] = transitionMatrix[moveToPos(oppMoves[i - 1])] || Array(5).fill(0);
+        apearenceCount[moveToPos(oppMoves[i - 1])]++;
+        transitionMatrix[moveToPos(oppMoves[i - 1])][moveToPos(oppMoves[i])]++;
+    }
+    for (let i = 0; i < 5; i++) {
+        for (let j = 0; j < 5; j++) {
+            transitionMatrix[i] = transitionMatrix[i] || [0, 0, 0, 0, 0,];
+            transitionMatrix[i][j] = transitionMatrix[i][j] / (apearenceCount[i] || 1);
+        }
+    }
+    let nextArr = transitionMatrix[moveToPos((oppMoves[oppMoves.length - 1]))];
+    let predNextScore = Math.max(...nextArr);
+    let predNextmove = posToMove(nextArr.indexOf(predNextScore));
+    return beat(predNextmove);
+
+    function moveToPos(move) {
+        switch (move) {
+            case 'R':
+                return 0;
+            case 'P':
+                return 1;
+            case 'S':
+                return 2;
+            case 'D':
+                return 3;
+            case 'W':
+                return 4;
+
+        }
+    }
+    function posToMove(move) {
+        switch (move) {
+            case 0:
+                return 'R';
+            case 1:
+                return 'P';
+            case 2:
+                return 'S';
+            case 3:
+                return 'D';
+            case 4:
+                return 'W';
+
+        }
+    }
+
+}
 module.exports = new Bot();

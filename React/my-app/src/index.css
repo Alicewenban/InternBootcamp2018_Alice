@@ -1,5 +1,113 @@
 body {
-  margin: 0;
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
   padding: 0;
-  font-family: sans-serif;
+  text-align: center;
+  width: 34px;
+}
+
+.square.selected {
+  font-weight: bold;
+  animation: selected-button-spin 1 1s linear;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.game-info .buttons {
+  width: 100%;
+}
+
+.game-board {
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+
+.game-board {
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+
+table, td, th {
+  border: 1px solid #333;
+  width: 75px;
+}
+
+@keyframes selected-button-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.movoing {
+  position: relative;
+  animation-name: moving;
+  animation-duration: 4s;
+}
+
+@keyframes moving {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 200px;
+    top: 0px;
+  }
+  50% {
+    left: 200px;
+    top: 200px;
+  }
+  75% {
+    left: 0px;
+    top: 200px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
 }
