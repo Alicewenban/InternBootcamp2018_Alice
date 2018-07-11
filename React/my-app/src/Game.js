@@ -39,8 +39,6 @@ class Game extends React.Component {
             }]),
             stepNumber: history.length,
         });
-
-
     }
 
     jumpTo(step) {
@@ -58,7 +56,7 @@ class Game extends React.Component {
     }
     unBold(i) {
         if (!this.state.end) {
-            if (typeof i != Number && this.selected) {
+            if (typeof i !== Number && this.selected) {
                 this.setState({
                     selected: this.selected.splice(this.selected.indexOf('i'), 1),
                 });
@@ -93,6 +91,17 @@ class Game extends React.Component {
             end: false
         });
     }
+    makeButtons(step, move) {
+        const change = indexToDisplay(step.squareChange);
+        const desc = move ?
+            'Go to move #' + move + " " + change :
+            'Go to game start';
+        return (
+            <li key={move}>
+                <button className="buttons" onClick={() => this.jumpTo(move)} onMouseOver={() => this.boldTile(step.squareChange)} onMouseLeave={() => this.unBold(step.squareChange)}>{desc}</button>
+            </li>
+        );
+     }
     render() {
         var history = this.state.history;
         const current = history[this.state.stepNumber];
@@ -100,31 +109,10 @@ class Game extends React.Component {
         const draw = calulateDraw(current.squares)
         var moves;
         if (this.state.assending) {
-            moves = history.map((step, move) => {
-                const change = indexToDisplay(step.squareChange);
-                const desc = move ?
-                    'Go to move #' + move + " " + change :
-                    'Go to game start';
-                return (
-                    <li key={move}>
-                        <button className="buttons" onClick={() => this.jumpTo(move)} onMouseOver={() => this.boldTile(step.squareChange)} onMouseLeave={() => this.unBold(step.squareChange)}>{desc}</button>
-                    </li>
-                );
-            });
+            moves = history.map((a,b)=> this.makeButtons(a,b));
         } else {
-            moves = history.slice(0).reverse().map((step, move) => {
-                const max = history.length - 1;
-                const change = indexToDisplay(step.squareChange);
-                const desc = (max - move) ?
-                    'Go to move #' + (max - move) + " " + change :
-                    'Go to game start';
-                return (
-                    <li key={(max - move)}>
-                        <button className="buttons" onClick={() => this.jumpTo((max - move))} onMouseOver={() => this.boldTile(step.squareChange)} onMouseLeave={() => this.unBold(step.squareChange)}>{desc}</button>
-                    </li>
-                );
-            });
-
+            const max = history.length - 1;
+            moves = history.slice(0).reverse().map((a, b) => this.makeButtons(a, max-b));
         }
 
         let status;

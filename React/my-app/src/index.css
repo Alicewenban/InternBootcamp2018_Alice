@@ -83,10 +83,11 @@ table, td, th {
   }
 }
 
-.movoing {
+.moving {
   position: relative;
   animation-name: moving;
-  animation-duration: 4s;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes moving {
@@ -95,16 +96,16 @@ table, td, th {
     top: 0px;
   }
   25% {
-    left: 200px;
+    left: 600px;
     top: 0px;
   }
   50% {
-    left: 200px;
-    top: 200px;
+    left: 600px;
+    top: 600px;
   }
   75% {
     left: 0px;
-    top: 200px;
+    top: 600px;
   }
   100% {
     left: 0px;
